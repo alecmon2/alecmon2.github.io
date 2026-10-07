@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head><!--
+    CLASSROOM CSS RESCUE EXERCISE: deliberately poor presentation.
+    Find fixed widths, arbitrary offsets, negative margins, squashed graphics,
+    inconsistent type, weak contrast, clipped headings, tight line-height,
+    misaligned controls, uneven columns, and needless slow layout shifts.
+    HTML structure and demo controls remain usable. No external dependencies.
+-->
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Rock Bottom Rentals | website_final_FIXED_2</title>
+
+<style>
+        /* Inline styles are deliberately poor. Only shared motion rules live here. */
+        @keyframes drift {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(13px); }
+        }
+        @keyframes settle {
+            0%, 100% { margin-left: 7px; }
+            50% { margin-left: 20px; }
+        }
+        html.paused *, html.paused *::before, html.paused *::after {
+            animation-play-state: paused !important;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after { animation: none !important; }
+        }
+    </style>
+</head>
+<body id="top" style="margin:7px 0 0 19px; padding:0 0 90px; min-width:1118px; background:#d3d0c5; color:#35322e; font-family:'Times New Roman',serif; font-size:14px; line-height:1.04;">
+
+<button aria-pressed="false" id="motion-toggle" onclick="toggleMotion(this)" style="position:fixed; top:7px; right:9px; z-index:1000; padding:5px 9px; background:#ecebe5; color:#333; border:2px outset #aaa; font:12px Arial,sans-serif; cursor:pointer;" type="button">Pause layout drift</button>
+<div style="width:648px; height:17px; margin:5px 0 0 145px; padding:1px 3px; background:#c0bdb3; color:#5b584f; border:1px inset #aaa; overflow:hidden; font:10px Arial,sans-serif; white-space:nowrap;">
+<div style="display:block;">
+<span style="padding-right:18px;">Breaking: local rock remains local. Free shipping*  *shipping is $900. Your driveway is our competition.</span>
+
+</div>
+</div>
+<header style="position:relative; width:713px; height:149px; margin:23px 0 0 211px; padding:8px 6px 0 13px; background:#e0ddd4; border-top:2px solid #8f8b80; border-right:1px solid #aaa; border-bottom:7px double #aaa;">
+<p style="width:266px; margin:0 0 0 411px; padding:2px 3px; color:#827e72; font:8px Arial,sans-serif; letter-spacing:2px; text-align:right;">
+            THE WORLD'S MOST UNNECESSARY SUBSCRIPTION SERVICE
+        </p>
+<h1 style="width:321px; height:58px; overflow:visible; margin:1px 0 0 31px; color:#514d42; font:normal 38px Georgia,serif; line-height:.71; letter-spacing:-3.4px; transform:scaleX(.82); transform-origin:left;">Rock Bottom<br/>RENTALS</h1>
+<p style="width:390px; margin:29px 0 0 239px; color:#58584a; font:italic 13px Georgia,serif; text-align:right; line-height:.8; border-top:1px dotted #aaa; padding-top:2px;">
+            WHY OWN A ROCK WHEN YOU CAN OWE A ROCK?
+        </p>
+<div style="position:absolute; right:8px; top:49px; width:113px; height:54px; padding:6px 2px; color:#716b60; background:#cbc6b8; border:3px double #918b7d; font:11px Arial,sans-serif; line-height:1.7; text-align:center; border-radius:5px 40px 3px 0; animation:drift 17s ease-in-out infinite;">
+            AS SEEN<br/>ON THIS<br/>WEBSITE
+        </div>
+</header>
+<nav aria-label="Main navigation" style="position:absolute; top:102px; left:14px; width:154px; padding:5px 3px 19px 2px; background:#c3c2b8; border:2px inset #b3b0a7;">
+<a href="#rocks" style="display:block; width:134px; margin:0 0 7px 0; padding:3px; color:#30495b; background:#dfddd3; border:2px outset #aaa; font:22px Arial,sans-serif;">THE ROCKS</a>
+<a href="#benefits" style="display:block; width:72px; margin:2px 0 17px 51px; padding:2px 1px 8px 13px; color:#655344; font:12px Georgia,serif; line-height:.85; border-left:3px solid #9e9586;">WHY RENT A ROCK?</a>
+<a href="#reviews" style="display:block; width:140px; margin-left:-9px; padding:6px 1px; color:#4c465b; font:bold 16px Courier,monospace; letter-spacing:-1px; border-top:1px solid #858178;">HUMAN REVIEWS</a>
+<a href="#club" style="display:block; width:94px; margin:27px 0 3px 9px; padding:2px; color:#485449; font:10px Arial,sans-serif; text-decoration:none; text-align:right;">GET SEDIMENTAL</a>
+</nav><aside style="position:absolute; top:416px; left:25px; width:104px; padding:8px 2px; color:#6a655c; border:1px solid #9d9b92; font:11px Arial,sans-serif; line-height:1.7;">SITE NEWS<hr/>Kevin has fixed the width. Please use a wider monitor.</aside>
+<main style="width:870px; margin:11px 0 0 168px; padding:0;">
+<section style="position:relative; width:727px; min-height:181px; margin:0 0 8px 6px; padding:1px 41px 3px 9px; background:#dedbd1; border-bottom:1px solid #a7a398;">
+<div style="width:544px; margin-left:12px;">
+<h2 style="width:440px; margin:22px 0 -6px 7px; color:#4d5147; font:normal 37px Arial,sans-serif; letter-spacing:-2px; line-height:.87;">
+                    Is your home tragically rockless?
+                </h2>
+<p style="width:306px; margin:15px 0 7px 92px; padding:0; color:#504f46; font:15px Georgia,serif; line-height:.86; text-align:justify; word-spacing:4px;">
+                    Your neighbors have furniture. Your cousin has a dog.
+                    But do they have a <strong>contractually obligated pebble?</strong>
+                    Experience the weight of responsibility. Literally.
+                </p>
+<p style="width:347px; margin:3px 0 20px 72px; padding:3px; color:#807b71; font:9px Arial,sans-serif; text-align:right; border-bottom:1px dashed #b5b0a5;">
+                    100% organic. Cage-free. Emotionally unavailable.
+                </p>
+</div>
+<aside style="position:absolute; left:573px; top:32px; width:131px; padding:2px 9px 4px 0; background:#ceccc3; border:2px groove #aaa; text-align:left;">
+<div aria-hidden="true" style="height:29px; margin:0 0 3px 19px; font-size:70px; line-height:.45; transform:scale(1.5,.35); transform-origin:left center; filter:grayscale(1);">🪨</div>
+<strong style="display:block; width:87px; margin-left:42px; font:10px Arial,sans-serif; letter-spacing:1.5px; line-height:.8;">EMPLOYEE OF THE MONTH</strong>
+<p style="width:94px; margin:7px 0 4px 3px; font:italic 10px Georgia,serif; text-align:right;">Has never requested time off.</p>
+</aside>
+</section>
+<section id="rocks" style="width:855px; margin:0 0 0 0; padding:0;">
+<h2 style="width:473px; height:27px; overflow:hidden; margin:0 0 8px 168px; padding:1px 13px 0 0; background:#c4c1b6; color:#535147; border-bottom:3px double #8f8a80; font:normal 24px Georgia,serif; letter-spacing:3px; text-align:right; white-space:nowrap;">
+                SELECT YOUR FINANCIAL BURDEN
+            </h2>
+<div style="display:flex; flex-wrap:nowrap; align-items:flex-start; gap:0; width:866px; margin:0 0 0 -29px; padding:0;">
+<article style="position:relative; flex:0 0 249px; width:249px; margin:6px 9px 0 0; padding:2px 5px 18px; background:#e4e1d8; border:1px solid #99968a; border-right:6px ridge #b7b4a8;">
+<p style="width:93px; margin:3px 0 0 149px; color:#8b877c; font:8px Arial,sans-serif; line-height:.8; text-align:right;">ENTRY-LEVEL GEOLOGY</p>
+<div aria-hidden="true" style="height:57px; width:103px; margin:13px 0 0 21px; font-size:101px; line-height:.6; transform:scale(1.85,.38); transform-origin:left center; filter:grayscale(1);">🪨</div>
+<h3 style="width:150px; margin:-5px 0 0 91px; color:#4c433d; font:normal 44px Georgia,serif; line-height:.7; letter-spacing:-3px;">Greg.</h3>
+<p style="width:142px; margin:8px 0 3px 37px; padding:2px; font:14px Georgia,serif; line-height:.83; text-align:justify;">A rock with the energy of an assistant manager who has seen your email.</p>
+<ul style="margin:11px 0 0 0; padding:1px 7px 2px 17px; color:#646058; font:11px Arial,sans-serif; line-height:1.05; border-top:1px solid #bfbab0;">
+<li style="margin:0 0 5px 17px;">One exterior</li>
+<li style="margin:0 0 2px 1px; font-size:18px;">Zero ambitions</li>
+<li style="width:108px; margin:0 0 14px 62px;">Bluetooth emotionally unsupported</li>
+</ul>
+<p style="position:relative; z-index:2; width:187px; margin:9px 0 -3px 114px; padding:1px; color:#545b46; background:#cacbbd; border:1px solid #a5a595; font:bold 25px Arial,sans-serif; line-height:.87; letter-spacing:-1px;">$49.99 / MONTH</p>
+<button onclick="rentRock('Greg')" style="display:block; width:162px; margin:16px 0 2px 3px; padding:22px 2px 4px 37px; background:#c5c5bd; color:#333; border:4px outset #aaa; border-radius:0; font:13px Arial,sans-serif; text-align:right; cursor:pointer;" type="button">I ACCEPT GREG</button>
+</article>
+<article style="position:relative; flex:0 0 276px; width:276px; margin:62px 17px 0 -3px; padding:18px 3px 4px 13px; background:#d0d0c6; border:2px solid #b2aea0; border-radius:0 23px 0 0;">
+<p style="position:absolute; top:-32px; left:31px; width:190px; height:12px; margin:0; padding:9px 0 3px 0; color:#6b5846; background:#c9c0ae; border:1px solid #aca18f; font:13px Arial,sans-serif; letter-spacing:3px; animation:drift 19s ease-in-out infinite;">MOST EXPENSIVE!!!</p>
+<div aria-hidden="true" style="position:relative; height:102px; width:115px; margin:3px 0 0 49px; font-size:93px; line-height:.9; transform:scale(.57,1.2); filter:grayscale(1);">🪨</div>
+<h3 style="position:relative; width:268px; margin:-49px 0 30px -36px; padding:2px; color:#554e43; background:#d7d3c6; font:normal 29px Georgia,serif; line-height:.83; text-align:center; border-bottom:1px solid #a09a8a;">Sir Crumbles III</h3>
+<p style="width:232px; margin:9px 0 6px 16px; font:12px Arial,sans-serif; letter-spacing:.4px; line-height:1.85; text-align:right;">Same rock. Different attitude. Arrives with a tiny certificate of superiority.</p>
+<p style="width:161px; margin:4px 0 0 29px; padding:4px 2px; font:10px Courier,monospace; line-height:.9; border-top:2px dotted #aaa79b;">PREMIUM FEATURES:<br/><br/>• Corners<br/>• Geological backstory<br/>• Judging your curtains</p>
+<p style="width:213px; margin:27px 0 4px 7px; padding:2px 0; font:normal 41px Georgia,serif; color:#696150; letter-spacing:-3px; line-height:.6; animation:settle 14s steps(2,end) infinite;">$799.99<small style="display:block; width:96px; margin:6px 0 0 139px; color:#8c8578; font:8px Arial,sans-serif; letter-spacing:0; line-height:.9; text-align:right;">PER HOUR, FOR SOME REASON</small></p>
+<button onclick="rentRock('Sir Crumbles III')" style="width:103px; margin:3px 0 0 143px; padding:2px 6px; color:#403d38; background:#e2dfd6; border:1px solid #8c877b; border-radius:28px; font:9px Georgia,serif; cursor:pointer;" type="button">BECOME HIS LANDLORD</button>
+</article>
+<article style="position:relative; flex:0 0 207px; width:207px; margin:19px 0 0 0; padding:0 7px 38px 2px; background:#c1bfb7; color:#4b4841; border-left:1px dashed #716f64; border-bottom:5px solid #aeaaa0;">
+<p style="margin:9px 0 16px 5px; color:#69665e; font:9px Courier,monospace; text-align:center;">THE FUTURE OF ABSENCE</p>
+<div aria-label="An empty display for an imaginary invisible rock" style="height:52px; width:169px; margin:0 0 0 11px; border:1px inset #a8a59d; background:#cac8c0; text-align:left;">
+<span style="display:block; width:58px; margin:29px 0 0 94px; color:#8f8a7e; font:8px Arial,sans-serif; text-align:right;">artist's impression</span>
+</div>
+<h3 style="width:163px; margin:26px 0 3px 43px; color:#575b50; font:normal 14px Arial,sans-serif; text-decoration:underline; letter-spacing:4px; line-height:.8;">INVISIBLE ROCK</h3>
+<p style="width:113px; margin:15px 0 29px 4px; font:19px Georgia,serif; line-height:.81; text-align:justify;">We mailed it already. Check again. It is probably right there.</p>
+<p style="width:155px; margin:-14px 0 17px 41px; padding:2px; border:1px dotted #8d897d; font:10px Arial,sans-serif; text-align:right; line-height:.91;">Weight: emotionally significant.<br/><br/>Includes absolutely all of it.</p>
+<p style="margin:31px 0 -3px -11px; color:#665b4a; font:normal 58px Georgia,serif; letter-spacing:-5px; line-height:.75;">FREE*</p>
+<p style="width:90px; margin:8px 0 3px 105px; color:#928a7b; font:8px Arial,sans-serif; line-height:.83;">*Plus $14,999.99 invisibility handling.</p>
+<button onclick="rentRock('an Invisible Rock')" style="width:219px; height:22px; margin:21px 0 0 -19px; padding:0; color:#e3e0d7; background:#727066; border:3px outset #a8a59a; font:bold 10px Courier,monospace; letter-spacing:-.7px; cursor:pointer;" type="button">ADD NOTHING TO CART</button>
+</article>
+</div>
+<p id="receipt" role="status" style="width:558px; margin:3px 0 0 92px; padding:1px 0; background:#d3d0c5; color:#777166; border-top:1px solid #9e9788; font:10px Courier,monospace; line-height:.9; text-align:right;">
+                YOUR CART: EMPTY. YOUR YARD: SUSPICIOUSLY FULL OF FREE ALTERNATIVES.
+            </p>
+</section>
+<section id="benefits" style="width:589px; margin:113px 0 0 81px; padding:0 4px 3px 0; background:#dddbd2; border-top:1px solid #979286; border-right:2px solid #b1ab9f;">
+<h2 style="width:153px; margin:0 0 -19px -107px; padding:1px; color:#5c6256; font:normal 16px Arial,sans-serif; line-height:.79; text-align:right; letter-spacing:1.3px;">WE DID THE MATH. THEN IGNORED IT.</h2>
+<div style="overflow:visible; margin-left:37px;">
+<table style="width:534px; table-layout:fixed; border-spacing:13px 2px; color:#575349; font:13px Georgia,serif; line-height:.91;">
+<caption style="width:259px; margin-left:182px; padding:0 0 4px; font:8px Arial,sans-serif; color:#938b7c; text-align:right; letter-spacing:1px;">A VERY INDEPENDENT COMPARISON MADE BY US</caption>
+<thead>
+<tr>
+<th scope="col" style="width:82px; padding:3px 0 1px; font-weight:normal; text-align:left; border-bottom:1px solid #999;">FEATURE</th>
+<th scope="col" style="width:176px; padding:12px 0 0; font:10px Arial,sans-serif; text-align:right;">YARD ROCK</th>
+<th scope="col" style="width:90px; padding:1px 7px; background:#c2bcb0; font:19px Georgia,serif; text-align:left;">OUR ROCK</th>
+</tr>
+</thead>
+<tbody>
+<tr><th scope="row" style="padding:2px 1px 17px; font:10px Arial,sans-serif; text-align:right; color:#777267;">Is a rock</th><td style="padding:1px 2px 0 23px; font-size:12px; text-align:left; vertical-align:bottom; border-left:1px solid #bdb8ac;">Yes</td><td style="padding:1px 0 4px; font:normal 18px Georgia,serif; text-align:center; background:#d1d0c3;">PREMIUM YES</td></tr>
+<tr><th scope="row" style="padding:2px 1px 17px; font:10px Arial,sans-serif; text-align:right; color:#777267;">Monthly invoice</th><td style="padding:1px 2px 0 23px; font-size:12px; text-align:left; vertical-align:bottom; border-left:1px solid #bdb8ac;">Tragically absent</td><td style="padding:4px 0 4px; font:normal 15px Georgia,serif; text-align:center; background:#d1d0c3;">GUARANTEED</td></tr>
+<tr><th scope="row" style="padding:2px 1px 17px; font:10px Arial,sans-serif; text-align:right; color:#777267;">Customer support</th><td style="padding:1px 2px 0 23px; font-size:12px; text-align:left; vertical-align:bottom; border-left:1px solid #bdb8ac;">A nearby shrub</td><td style="padding:7px 0 4px; font:normal 12px Georgia,serif; text-align:center; background:#d1d0c3;">A different rock</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="reviews" style="position:relative; width:702px; margin:38px 0 0 -49px; padding:1px 4px; border-bottom:2px solid #aaa598;">
+<h2 style="width:324px; height:30px; overflow:hidden; margin:0 0 0 318px; color:#666255; font:normal 21px Georgia,serif; letter-spacing:5px; line-height:.85; text-align:right;">WORDS FROM ALLEGED CUSTOMERS</h2>
+<blockquote style="width:302px; margin:3px 0 0 39px; padding:2px 31px 17px 2px; border-left:1px solid #979183; color:#625b4c; font:normal 23px Georgia,serif; line-height:.82;">
+                “It is exactly as stationary as advertised.”
+                <footer style="margin:9px 0 0 117px; font:8px Arial,sans-serif; color:#8e887a;">Brenda, verified person</footer>
+</blockquote>
+<blockquote style="width:204px; margin:-23px 0 0 403px; padding:13px 2px; background:#c0bfb5; font:italic 12px Arial,sans-serif; line-height:1.8;">
+                “My husband thinks we own it. I have been hiding the invoices.”
+                <footer style="margin:1px 0 -20px -93px; font:10px Georgia,serif; color:#7a7669;">Anonymous, financially sedimentary</footer>
+</blockquote>
+<blockquote style="width:277px; margin:7px 0 25px 155px; padding:0; color:#837b6a; font:17px Courier,monospace; line-height:.84;">
+                “Please stop using my photo.”
+                <footer style="margin:-2px 0 0 230px; width:34px; font:9px Arial,sans-serif; color:#676155;">Greg, the rock</footer>
+</blockquote>
+</section>
+<section id="club" style="width:487px; margin:74px 0 0 296px; padding:3px 7px 18px 12px; background:#d9d6cb; border:3px groove #b3ada1;">
+<h2 style="width:195px; margin:-17px 0 13px -66px; padding:0 2px; background:#ccc9bd; color:#625f4f; font:normal 36px Georgia,serif; line-height:.65; letter-spacing:-3px;">get sedimental</h2>
+<p style="width:208px; margin:5px 0 0 267px; color:#817b6c; font:9px Arial,sans-serif; line-height:1.9; text-align:right;">Join our mailing list for rock updates. The updates are that the rocks are still there.</p>
+<form onsubmit="joinClub(event)" style="position:relative; width:402px; height:89px; margin:18px 0 3px -7px; padding:0 0 3px;">
+<label for="rock-email" style="display:block; width:158px; margin:0 0 -4px 89px; font:12px Georgia,serif; text-align:right; line-height:.86;">Your electronic rock-receiving address:</label>
+<input autocomplete="email" id="rock-email" name="email" placeholder="human@rockmail.example" required="" style="width:309px; height:17px; box-sizing:content-box; margin:7px 0 0 13px; padding:1px 2px 2px; color:#514d43; background:#edebe3; border:3px inset #b1aaa0; font:10px Courier,monospace;" type="email"/>
+<br/>
+<button style="position:absolute; top:24px; left:351px; width:103px; padding:1px 0 16px 2px; color:#333; background:#c3c0b5; border:2px outset #aaa69b; font:9px Arial,sans-serif; cursor:pointer;" type="submit">SEND ME GEOLOGICAL NONSENSE</button>
+<p id="club-status" role="status" style="width:341px; margin:2px 0 0 31px; padding:1px; color:#898172; font:8px Arial,sans-serif; line-height:.85;">Demo only. Your email goes absolutely nowhere.</p>
+</form>
+</section>
+<aside style="width:184px; margin:-116px 0 64px -16px; padding:2px 1px 5px; background:#c2c0b5; border:1px solid #989182; text-align:left;">
+<h2 style="margin:2px 0 0 74px; color:#5c5c4f; font:9px Arial,sans-serif; letter-spacing:2px;">LIVE ROCK CAM</h2>
+<p aria-hidden="true" style="width:98px; height:43px; margin:10px 0 0 4px; font-size:47px; line-height:.8; transform:scale(1.5,.7); transform-origin:left; filter:grayscale(1);">🪨</p>
+<p style="width:164px; margin:0 0 1px 5px; color:#5d574d; font:10px Courier,monospace;">STILL IMAGE. STILL A ROCK.</p>
+<p style="width:77px; margin:-26px 0 0 110px; color:#8b8372; font:8px Arial,sans-serif; line-height:.9;">Please report any character development.</p>
+</aside>
+</main>
+<footer style="width:513px; margin:8px 0 0 451px; padding:2px 7px 0; color:#777163; border-top:1px solid #8f8776; font:9px Arial,sans-serif; text-align:right;">
+<p style="margin:3px 0 0 -97px; width:267px; font:11px Georgia,serif; text-align:left;">ROCK BOTTOM RENTALS © 2026</p>
+<p style="margin:17px 0 0 165px; width:187px; font:italic 19px Georgia,serif; line-height:.75;">Our business model is erosion.</p>
+<p style="margin:3px 0 0 61px; font:8px Courier,monospace;">BEST VIEWED AT THE WIDTH KEVIN TESTED.</p>
+<p style="margin:25px 0 0 -51px; width:372px; font:9px Arial,sans-serif; text-align:left;">Fictional shop. Demo controls only. No payments or emails are sent.</p>
+<a href="#top" style="display:block; width:98px; margin:-12px 0 0 406px; color:#5a5364; font:8px Arial,sans-serif;">RETURN TO THE PROBLEM</a>
+</footer>
+<aside aria-label="Pretend cookie notice" id="pebble-notice" style="position:fixed; bottom:12px; left:10px; z-index:900; width:167px; padding:3px 5px 4px; color:#575247; background:#c7c2b5; border:2px outset #aaa295; box-shadow:2px 3px 0 #b0aa9a;">
+<strong style="font:11px Arial,sans-serif; letter-spacing:1px;">we use pebbles</strong>
+<p style="width:99px; margin:4px 0 5px 53px; font:10px Georgia,serif; line-height:.9; text-align:right;">To improve your browsing erosion.</p>
+<button onclick="document.getElementById('pebble-notice').remove()" style="width:72px; margin:0 0 1px 7px; padding:1px; font:8px Arial,sans-serif; color:#504b41; background:#dcd7c9; border:2px outset #aba392; cursor:pointer;" type="button">ACCEPT ALL PEBBLES</button>
+</aside>
+<script>
+        // These controls are a local classroom demo. Nothing is sent or purchased.
+        let rockCount = 0;
+
+        function toggleMotion(button) {
+            const paused = document.documentElement.classList.toggle('paused');
+            button.textContent = paused ? 'Resume layout drift' : 'Pause layout drift';
+            button.setAttribute('aria-pressed', String(paused));
+        }
+
+        function rentRock(name) {
+            rockCount += 1;
+            document.getElementById('receipt').textContent =
+                'DEMO CART: ' + rockCount + (rockCount === 1 ? ' ROCK. ' : ' ROCKS. ') +
+                'You selected ' + name + '. Your imaginary accountant is disappointed.';
+        }
+
+        function joinClub(event) {
+            event.preventDefault();
+            document.getElementById('club-status').textContent =
+                'Demo: A rock has been informed. It declined to comment. No email was sent.';
+            event.target.reset();
+        }
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
